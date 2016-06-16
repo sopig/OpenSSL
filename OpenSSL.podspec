@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
     lib.source_files = 'lib/*.{a}'
   end
 
+  s.vendored_libraries = 'lib/libcrypto.a','lib/libssl.a'
   #s.resource = 'Classes/**/*.plist','Classes/**/*.pem'
 
 
