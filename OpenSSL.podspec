@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Lib' do |lib|
-    core.source_files = 'lib/*.{a}'
+    lib.source_files = 'lib/*.{a}'
   end
 
   #s.resource = 'Classes/**/*.plist','Classes/**/*.pem'
