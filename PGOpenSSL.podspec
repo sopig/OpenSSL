@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "OpenSSL"
+  s.name         = "PGOpenSSL"
   s.version      = "0.0.1"
   s.summary      = "OpenSSL framework的封装"
   s.description  = <<-DESC
